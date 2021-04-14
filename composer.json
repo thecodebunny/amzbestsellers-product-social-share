@@ -1,0 +1,23 @@
+{
+    "name": "thecodebunny/amzbestsellers-product-social-share",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hemang Vyas",
+        "email": "info@zoibo.de"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TheCodeBunny\\ProductSocialShare\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheCodeBunny\\ProductSocialShare\\Providers\\ProductSocialShareProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
